@@ -1,0 +1,22 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Work Sans", sans-serif;
+}
+
+:root {
+  --a-violet: rgb(104, 46, 135);
+  --a-gray: rgb(169, 169, 169);
+  --a-black: rgba(0, 0, 0, 0.9);
+  --a-lightgray: rgba(137, 148, 153, 0.2);
+  --a-white: rgb(255, 255, 255);
+}
+
+html,
+body,
+#root,
+#root > div {
+  width: 100%;
+  height: 100%;
+}
