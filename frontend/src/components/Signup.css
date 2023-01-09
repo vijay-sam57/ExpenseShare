@@ -1,0 +1,11 @@
+.userinput {
+  padding: 0.5rem 0.75rem;
+}
+
+.userinput input {
+  margin-bottom: 0.5rem;
+}
+
+.register {
+  margin-bottom: 2rem;
+}
