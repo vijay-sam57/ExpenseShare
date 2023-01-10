@@ -43,7 +43,7 @@ public class DetailsController {
         Response response = new Response();
         for(int i = 0 ; i<temp.size();i++){
             Details detail = temp.get(i);
-            if(detail.getUserName().equals(credential.getUserName()) && detail.getPassword().equals(credential.getPassword())){
+            if(detail.getEmail().equals(credential.getEmail()) && detail.getPassword().equals(credential.getPassword())){
                 System.out.println("sucess");
                 response.setResponse("Logged in sucessfully");
                 return new ResponseEntity<Response>(response,HttpStatus.OK);

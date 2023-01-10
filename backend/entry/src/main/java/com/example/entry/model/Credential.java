@@ -4,14 +4,14 @@ import com.fasterxml.jackson.annotation.JsonProperty;
 
 public class Credential {
 
-    private String userName;
+    private String email;
     private String password;
 
-    public String getUserName() {
-        return userName;
+    public String getEmail() {
+        return email;
     }
-    public void setUserName(String userName) {
-        this.userName = userName;
+    public void setEmail(String email) {
+        this.email = email;
     }
     public String getPassword() {
         return password;
@@ -20,8 +20,8 @@ public class Credential {
         this.password = password;
     }
 
-    public Credential(@JsonProperty("userName") String userName,@JsonProperty("password") String password) {
-        this.userName = userName;
+    public Credential(@JsonProperty("email") String email,@JsonProperty("password") String password) {
+        this.email = email;
         this.password = password;
     }
 
@@ -30,6 +30,6 @@ public class Credential {
 
     @Override
     public String toString() {
-        return "Credential [userName=" + userName + ", password=" + password + "]";
+        return "Credential [email=" + email + ", password=" + password + "]";
     }
 }
