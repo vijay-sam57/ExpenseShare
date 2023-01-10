@@ -14,7 +14,7 @@
 .hero1 {
   margin-top: 2rem;
   padding: 0.5rem 0rem;
-  color: var(--a-black);
+  color: var(--a-white);
 }
 
 .hero2 {
@@ -35,7 +35,7 @@
   -moz-border-radius: 10px;
   -ms-border-radius: 10px;
   -o-border-radius: 10px;
-  box-shadow: var(--a-lightgray) 0px 8px 24px;
+  background-color: var(--a-white);
 }
 
 .userinput {
@@ -44,7 +44,7 @@
   text-align: left;
 }
 .userinput p {
-  color: var(--a-violet);
+  color: var(--a-black);
   font-weight: 550;
   text-align: left;
   font-size: large;
@@ -64,9 +64,10 @@
   width: 50%;
   margin: 0.5rem auto;
   padding: 1rem;
-  border: 1px solid var(--a-white);
+  border: 1px solid var(--a-black);
   font-size: large;
   border-radius: 25px;
+  outline: 0;
   -webkit-border-radius: 25px;
   -moz-border-radius: 25px;
   -ms-border-radius: 25px;
@@ -86,7 +87,7 @@
 }
 
 .register a {
-  color: var(--a-black);
+  color: var(--a-white);
   font-weight: 600;
   text-decoration: none;
 }

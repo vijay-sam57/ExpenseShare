@@ -8,7 +8,7 @@
 :root {
   --a-violet: rgb(104, 46, 135);
   --a-gray: rgb(169, 169, 169);
-  --a-black: rgba(0, 0, 0, 0.9);
+  --a-black: #32313a;
   --a-lightgray: rgba(137, 148, 153, 0.2);
   --a-white: rgb(255, 255, 255);
 }

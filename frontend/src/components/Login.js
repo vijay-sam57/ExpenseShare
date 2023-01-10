@@ -15,11 +15,11 @@ function LoginForm() {
         <form onSubmit={submitForm} autoComplete="off">
           <div className="inputbox">
             <div className="userinput">
-              <p>Username:</p>
+              <p>Email:</p>
               <input
                 required
-                id="name"
-                type="text"
+                id="email"
+                type="email"
                 value={name}
                 onChange={(e) => setName(e.target.value)}
               ></input>
