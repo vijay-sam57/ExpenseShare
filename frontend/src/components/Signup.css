@@ -2,6 +2,21 @@
   background-color: var(--a-black);
 }
 
+.success {
+  width: 100%;
+  margin: 0rem auto 1rem;
+  padding: 1rem;
+  font-size: large;
+  background-color: #4bb543;
+  color: var(--a-white);
+  border-radius: 0.5rem;
+  -webkit-border-radius: 0.5rem;
+  -moz-border-radius: 0.5rem;
+  -ms-border-radius: 0.5rem;
+  -o-border-radius: 0.5rem;
+  letter-spacing: 1.5px;
+}
+
 .userinput {
   padding: 0.5rem 0.75rem;
 }

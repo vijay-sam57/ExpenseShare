@@ -96,6 +96,9 @@
   color: var(--a-violet);
 }
 
+p.err {
+  color: #ff0000;
+}
 /* Responsiveness */
 @media only screen and (max-width: 480px) {
   .login > div,
@@ -117,5 +120,8 @@
   .submit-btn {
     width: 80%;
     margin-bottom: 1rem;
+  }
+  p.err {
+    font-size: medium;
   }
 }
