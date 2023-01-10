@@ -13,3 +13,25 @@
 .register {
   margin-bottom: 2rem;
 }
+
+@media only screen and (max-width: 480px) {
+  .submit-btn {
+    padding: 0.75rem;
+  }
+  .hero1 {
+    margin-top: 1rem;
+  }
+  .hero2 {
+    margin-top: 0.25rem;
+  }
+  .inputbox {
+    margin: 0.75rem auto;
+    padding: 0.5rem;
+  }
+  .userinput input {
+    height: 1.5rem;
+  }
+  .register {
+    margin-top: 0.25rem;
+  }
+}
